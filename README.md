@@ -40,3 +40,6 @@ Reboot the Server and it will boot with Kernel Version 3.8.13-55.1.6.el7uek.x86_
 # shutdown -r now
 
 </pre>
+<p>
+<h3><a href="https://access.redhat.com/solutions/29617">How to use yum/dnf to downgrade or rollback some package updates?</a></h3>
+</p>
