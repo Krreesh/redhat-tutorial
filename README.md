@@ -1,6 +1,6 @@
 # redhat-tutorial
 
-<h2>Change default kernel (boot with old kernel) – CentOS/RHEL/OEL 7</h2>
+<h2><a href="https://www.thegeekdiary.com/centos-rhel-7-change-default-kernel-boot-with-old-kernel/">Change default kernel (boot with old kernel) – CentOS/RHEL/OEL 7</a></h2>
 
 <pre>
 Question: How to modify the GRUB2 default entry to boot a different Kernel version?
