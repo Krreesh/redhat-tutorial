@@ -1,5 +1,6 @@
 # redhat-tutorial
-
+<h1> Upgrade Kernel </h1>
+<pre> yum install kernel kernel-tools kernel-tools-libs </pre><br>
 <h2><a href="https://www.thegeekdiary.com/centos-rhel-7-change-default-kernel-boot-with-old-kernel/">Change default kernel (boot with old kernel) – CentOS/RHEL/OEL 7</a></h2>
 
 <pre>
