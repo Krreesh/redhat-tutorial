@@ -51,4 +51,20 @@ Reboot the Server and it will boot with Kernel Version 3.8.13-55.1.6.el7uek.x86_
 <p>
   <h2><a href="https://access.redhat.com/solutions/64069">How to use yum history to roll back an update in Red Hat Enterprise Linux 6 and later?</a></h2>
 </p>  
+<h2>
+  Enable Red Hat Enterprise Linux 7 Server - Extras (RPMs)
+</h2>
 
+<pre>
+  [root@a1qnsvl-askan01 ~]# subscription-manager repos --list | grep -i extras -A3 -B3
+Repo URL:  https://cdn.redhat.com/content/dist/middleware/openjdk/1.0/x86_64/os
+Enabled:   0
+
+Repo ID:   rhel-7-server-extras-source-rpms
+Repo Name: Red Hat Enterprise Linux 7 Server - Extras (Source RPMs)
+Repo URL:  https://cdn.redhat.com/content/dist/rhel/server/7/7Server/$basearch/extras/source/SRPMS
+Enabled:   0
+
+  [root@a1qnsvl-askan01 ~]# subscription-manager repos --enable rhel-7-server-extras-rpms
+Repository 'rhel-7-server-extras-rpms' is enabled for this system.
+</pre>
