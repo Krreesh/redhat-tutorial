@@ -44,7 +44,7 @@ Reboot the Server and it will boot with Kernel Version 3.8.13-55.1.6.el7uek.x86_
 <p>
   <h2>Check connectivity to Redhat Server</h2>
   <pre>
-  openssl s_client -connect subscription.rhsm.redhat.com:443 </dev/null 2>/dev/null | openssl x509 -text
+  openssl s_client -connect subscription.rhsm.redhat.com:443 &lt;/dev/null 2&gt;/dev/null | openssl x509 -text
 </pre>
 <h2><a href="https://access.redhat.com/solutions/29617">How to use yum/dnf to downgrade or rollback some package updates?</a></h2>
 </p>
